@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Herr+Von+Muellerhoff&family=Hurricane&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section class="d-flex justify-content-center align-items-center min-vh-100 ">
+        <div class="container w-50 text-center ">
+            <div class="inner  py-5">
+                <h2 class="text-warning">Quote of the Day</h2>
+                <p id="quotes"></p>
+                <p id="author"></p>
+
+                <button onclick="randomQuotes()" class="btn btn-warning"> click Here</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+  <script>
+    var typed = new Typed('#quotes', '#author', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+   
+</body>
+
+</html>
